@@ -2,11 +2,11 @@
   "name": "awesome-fe-mcp-bundle",
   "type": "commonjs",
   "version": "0.0.4",
+  "packageManager": "pnpm@10.6.4",
   "description": "Awesome FE MCP Bundle",
   "license": "MIT",
   "main": "./index.ts",
   "bin": "./bin/index.js",
-  "packageManager": "pnpm@10.6.4",
   "files": [
     "LICENSE",
     "README.md",
