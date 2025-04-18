@@ -1,11 +1,15 @@
 {
   "name": "awesome-fe-mcp-bundle",
-  "version": "0.0.2",
+  "type": "commonjs",
+  "version": "0.0.3",
   "description": "Awesome FE MCP Bundle",
-  "main": "dist/index.js",
+  "license": "MIT",
+  "main": "./index.ts",
+  "bin": "./bin/index.js",
   "files": [
     "LICENSE",
     "README.md",
+    "bin",
     "dist",
     "package.json"
   ],
