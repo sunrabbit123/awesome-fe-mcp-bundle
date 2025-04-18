@@ -45,7 +45,7 @@
     "release": "pnpm lint && pnpm prepack && publint && pnpm dlx bumpp"
   },
   "dependencies": {
-    "@wrtnlabs/mcp-bundler": "^0.0.6"
+    "@wrtnlabs/mcp-bundler": "^0.0.7"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
