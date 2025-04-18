@@ -7,6 +7,22 @@
   "license": "MIT",
   "main": "./index.ts",
   "bin": "./bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunrabbit123/awesome-fe-mcp-bundle.git"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-bundle",
+    "mcp-server",
+    "frontend",
+    "frontend-mcp-bundle",
+    "frontend-mcp-server"
+  ],
+  "author": "sunrabbit123 <qudwls185@naver.com>",
+  "bugs": {
+    "url": "https://github.com/sunrabbit123/awesome-fe-mcp-bundle/issues"
+  },
   "files": [
     "LICENSE",
     "README.md",
