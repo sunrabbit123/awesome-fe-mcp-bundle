@@ -10,17 +10,21 @@ We include the following MCP servers:
 The following list shows the required environment variables for each server:
 
 ### GitHub
+
 - GITHUB_PERSONAL_ACCESS_TOKEN: GitHub Personal Access Token
 
 ### Slack
+
 - SLACK_BOT_TOKEN: Slack Bot Token
 - SLACK_TEAM_ID: Slack Team ID
 
 ### GitLab
+
 - GITLAB_PERSONAL_ACCESS_TOKEN: GitLab Personal Access Token
 - GITLAB_API_URL: GitLab API URL
 
 ### Atlassian (Confluence & Jira)
+
 - CONFLUENCE_URL: Confluence Instance URL
 - CONFLUENCE_USERNAME: Confluence Username
 - CONFLUENCE_API_TOKEN: Confluence API Token
@@ -44,16 +48,17 @@ or
 
 ```json
 {
-    "mcpServers": {
-        "awesome-fe-mcp-bundle": {
-            "command": "npx",
-            "args": [
-                "-y", "awesome-fe-mcp-bundle"
-            ],
-            "env": {
-                "...": "..."
-            }
-        }
+  "mcpServers": {
+    "awesome-fe-mcp-bundle": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "awesome-fe-mcp-bundle"
+      ],
+      "env": {
+        "...": "..."
+      }
     }
+  }
 }
 ```

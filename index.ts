@@ -5,15 +5,15 @@ const bundle = bundler({
   version: "0.0.1",
   mcpServers: {
     "slack": {
-      "command": "npx",
-      "args": [
+      command: "npx",
+      args: [
         "-y",
-        "@modelcontextprotocol/server-slack"
+        "@modelcontextprotocol/server-slack",
       ],
     },
     "gitlab": {
-      "command": "docker",
-      "args": [
+      command: "docker",
+      args: [
         "run",
         "--rm",
         "-i",
@@ -21,19 +21,19 @@ const bundle = bundler({
         "GITLAB_PERSONAL_ACCESS_TOKEN",
         "-e",
         "GITLAB_API_URL",
-        "mcp/gitlab"
+        "mcp/gitlab",
       ],
     },
     "github": {
-      "command": "npx",
-      "args": [
+      command: "npx",
+      args: [
         "-y",
-        "@modelcontextprotocol/server-github"
+        "@modelcontextprotocol/server-github",
       ],
     },
     "mcp-atlassian": {
-      "command": "uvx",
-      "args": ["mcp-atlassian"],
+      command: "uvx",
+      args: ["mcp-atlassian"],
     },
   },
   env: {
