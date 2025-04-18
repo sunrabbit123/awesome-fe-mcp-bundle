@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "./index.ts",
   "bin": "./bin/index.js",
+  "packageManager": "pnpm@10.6.4",
   "files": [
     "LICENSE",
     "README.md",
