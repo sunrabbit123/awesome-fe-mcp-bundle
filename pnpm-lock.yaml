@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@wrtnlabs/mcp-bundler':
-        specifier: ^0.0.7
-        version: 0.0.7
+        specifier: ^0.1.0
+        version: 0.1.0
     devDependencies:
       '@types/node':
         specifier: ^22.14.1
@@ -742,8 +742,8 @@ packages:
       eslint-plugin-tailwindcss:
         optional: true
 
-  '@wrtnlabs/mcp-bundler@0.0.7':
-    resolution: {integrity: sha512-Si3KW1vc8CSw7MMAbH283iIXWoXt1b1CYKSEhhoWL611Y0JCDnj+8RG3DjzDvAYXuAwgd9QqFAwrBokrsOtxng==}
+  '@wrtnlabs/mcp-bundler@0.1.0':
+    resolution: {integrity: sha512-tGspjcnO1xMZH4UN1greOjHzEv9BHm2Kx19Bbv1/d36zbJxdIZXvF5QWGjLDajSWZhkScypfx6F/nHEqnlIv0Q==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2771,7 +2771,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@wrtnlabs/mcp-bundler@0.0.7':
+  '@wrtnlabs/mcp-bundler@0.1.0':
     dependencies:
       commander: 13.1.0
 
